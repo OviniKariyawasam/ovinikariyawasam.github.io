@@ -1,0 +1,51 @@
+\documentclass{beamer}
+\usepackage{hyperref}
+%Information to be included in the title page:
+\title{Presentations and CVs}
+\author{Ovini Kariyawasam}
+\date{10-26-2023}
+
+\begin{document}
+
+\frame{\titlepage}
+
+\begin{frame}
+\frametitle{Introduction}
+\begin{itemize}
+\item Birthday - 17.09.1997
+\item Hometown - Wijerama (Sri Lanka)
+\item Program - Masters in Statistics
+\item Graduation Year - 2025
+\end{itemize}
+\end{frame}
+
+\begin{frame}
+\frametitle{Animal }
+\begin{figure}[h]
+\centering
+\includegraphics[width=.5\textwidth]{unicorn}
+\caption{Unicorn}
+\end{figure}
+\end{frame}
+
+
+\begin{frame}[fragile]
+\frametitle{Plot}
+<<plot,echo=FALSE,message=FALSE,fig.cap ="My Favorite Plot",out.width=".8\\textwidth">>=
+library(mclust)
+library(ggplot2)
+ggplot(banknote, aes(x=Length, color=Status,fill =Status)) +geom_histogram(alpha=0.5,binwidth = 0.1)
+
+@
+\end{frame}
+
+\begin{frame}
+
+\frametitle{CV Link}
+\begin{center}
+\href{https://ovinikariyawasam.github.io/CV.pdf}{Click here to open CV}
+\end{center}
+\end{frame}
+
+
+\end{document}
