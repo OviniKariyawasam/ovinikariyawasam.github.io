@@ -1,0 +1,31 @@
+---
+title: "Presentation and Slides using HTML"
+author: Ovini Kariyawasam
+format: revealjs
+editor: visual
+---
+
+## Introduction
+
+-   Birthday - 17.09.1997
+-   Hometown - Wijerama (Sri Lanka)
+-   Program - Masters in Statistics
+-   Graduation Year - 2025
+
+## Animal
+
+![](unicorn.jpg){fig-align="center"}
+
+## Favorite Plot
+
+```{r}
+library(mclust)
+library(ggplot2)
+ggplot(banknote, aes(x=Length, color=Status,fill =Status)) +
+  geom_histogram(alpha=0.5,binwidth = 0.1
+                 )
+```
+
+## CV
+
+This is the [link](https://ovinikariyawasam.github.io/CV.pdf) to my CV.
